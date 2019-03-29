@@ -2,9 +2,149 @@
 
 <html>
     <head>
+        <!--meta tags live in the <head> tag used for serch engine opermisation-->
+        <meta charset="utf-8">
+        <meta name="description" content="this is an awesome website">
+        <meta name="keywords" content="HTML, INTRO to code">
+        <meta name="viewport" content=" width=device-width, initial-scale=1.0">
         <title>New Course</title>
     </head>
+
     <body>
+        <header>
+            <nav>home</nav>
+            <nav>about</nav>
+        </header>
+        <main>
+        <h1>Joe's Website</h1>
+        <br>
+        <!-- line 2 lines-->
+        <hr><hr>
+        <article>
+        <p>Lorem ipsum dolor sit amet, <b>consectetur</b> adipisicing elit. Cumque, soluta. Eum a nobis ratione <b><i>itallics</i></b>. voluptates aliquid, tenetur iusto odit libero ipsa quod aut deleniti excepturi deserunt ipsam laborum, consequuntur nisi?</p>
+        </article>
+        <article>
+            <section>
+                <aside>
+        Lorem ipsum dolor sit amet, <big>consectetur</big>adipisicing elit. <small> People</small> Reiciendis aliquid ut aliquam est laborum. Nobis pariatur libero consectetur repudiandae dolor cum tenetur explicabo quam sapiente placeat repellendus porro, repellat similique.
+                </aside>
+            </section>
+        </article>
+
+        <!-- sub and super scritp-->
+        <p>
+            H<sub>2</sub>O
+            <br>
+            H<sup>2</sup>O
+        </p>
+        <br>
+        <hr>
+        <!--linking-->
+        <a href="https://www.google.com" target="_blank"><h1>googles homepage</h1> </a>
+        <hr>
+        <br>
+        <a href="aboutme.html" target="_blank"> About me</a>
+
+        <!--images-->
+        <img width="200px" src="sampl.jpg" alt="cat image">
+        <br>
+        <hr>
+        <a href="http://www.google.com" target="_blank">
+            <img width="200px" src="sample.jpg" alt="cat image">
+        </a>
+
+      
+<!-- For Video files
+
+<video src="location of video" controls>video desctiption if cannot play</video>
+
+if you dont add "controls" you wont have a play button
+
+can adjust size by adding "width="300px" after controls.
+
+can add a thumbnail for cover image on video by adding "poster="location of image"
+
+you can show a video from youtube by clicking "share" then "embed" on youtube and get the HTML info off youtube directily
+-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VfKuSgB87E8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <!-- you can change the bullet point type
+        you can add a list inside a nother list-->
+
+        <ol type="A">
+            <li>apple</li>
+                <ul>banana</ul>
+            <li>apple</li>
+            <li>apple</li>
+        </ol>
+
+        <dl>
+            <dt>apples</dt>
+            <dd> - they are red</dd>
+            <dt>oranges</dt>
+            <dd> - they are orange</dd>
+        </dl>
+        <hr>
+        <br>
+
+        <table>
+            <thead>
+            <caption><h2>name of people</h2></caption>
+            <tr>
+                <th>name</th>
+                <th>last name</th>
+                <th>name age</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">name of person</td>
+                    <td>last name of person</td>
+                    <td>name age of person</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+        <br>
+        <!--span is an inline container
+        Div is a Block container-->
+
+        <span>span1</span>
+        <span>span2</span>
+        <br>
+        <div>div1</div>
+        <div>div2</div>
+
+        <hr>
+        
+        <!-- wwww.w3schools.com for a list of imput types-->
+
+        <form>
+        <input type="text" placeholder="name"/>
+
+        <textarea> 
+            
+        </textarea>
+        </form>
+
+        <br>
+        <hr>
+
+        <!-- iframe lets you embed a whole website into your own website-->
+
+        <iframe src="http://giraffeacademy.com" width="500" height="400">sorry</iframe>
+
+        <!-- iframe some sites do let you use it-->
+
+        <iframe src="http://www.bbc.co.uk">sorry</iframe>
+
+
+        <br>
+        <hr>
+        </main>
+        <footer> Joe &copy; 2019</footer>
+
 
     </body>
 </html>
